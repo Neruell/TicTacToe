@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TicTacToe"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="297.271" Width="512.797">
+    <Grid Margin="0,0,2,-31">
+        <Button x:Name="topLeftBtn" Margin="10,10,0,0" Width="75" Height="75" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="48" VerticalAlignment="Top" Content=" "/>
+        <Button x:Name="topMiddleBtn" Margin="90,10,0,0" Height="75" FontSize="48" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" Content=" "/>
+        <Button x:Name="topRightBtn" Margin="170,10,0,0" Height="75" Width="75" HorizontalAlignment="Left" FontSize="48" VerticalAlignment="Top" Content=" "/>
+        <Button x:Name="middleLeftBtn" Margin="10,90,0,0" Height="75" Width="75" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Content=" "/>
+        <Button x:Name="middleMiddleBtn" Margin="90,90,0,0" Height="75" Width="75" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Content=" "/>
+        <Button x:Name="middleRightBtn" Margin="170,90,0,0" Height="75" HorizontalAlignment="Left" Width="75" FontSize="48" VerticalAlignment="Top" Content=" "/>
+        <Button x:Name="bottomLeftBtn" Margin="10,170,0,0" Height="75" Width="75" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Content=" "/>
+        <Button x:Name="bottomMiddleBtn" Margin="90,170,0,0" Height="75" FontSize="48" VerticalAlignment="Top" HorizontalAlignment="Left" Width="75" Content=" "/>
+        <Button x:Name="bottomRightBtn" Margin="170,170,0,0" Height="75" Width="75" HorizontalAlignment="Left" d:LayoutOverrides="Width" FontSize="48" VerticalAlignment="Top" Content=" "/>
+        <Label x:Name="player1WinsCount" Content="Player 1 Wins:" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" Height="32.5" Width="88"/>
+        <Label x:Name="player2WinsCount" Content="Player 2 Wins:" HorizontalAlignment="Left" Margin="250,47.5,0,0" VerticalAlignment="Top" Height="37.5" Width="88"/>
+        <Button x:Name="restartBtn" Content="Restart" HorizontalAlignment="Left" Margin="250,90,0,0" VerticalAlignment="Top" Width="109" Height="29"/>
+        <Label x:Name="player1Score" Content="0" HorizontalAlignment="Right" Margin="0,10,111.803,0" VerticalAlignment="Top" Height="32.5" Width="47.993"/>
+        <Label x:Name="player2Score" Content="0" HorizontalAlignment="Right" Margin="0,47.5,111.803,0" VerticalAlignment="Top" Height="32.5" Width="47.993"/>
+        <Button x:Name="resetCounterBtn" Content="Reset Counter" HorizontalAlignment="Left" Margin="250,124,0,0" VerticalAlignment="Top" Width="109" Height="29"/>
     </Grid>
 </Window>
